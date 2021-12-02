@@ -72,7 +72,7 @@ product_3 = Product(
     Image = "../static/3.png",
     Name = "Waistbeads",
     Cost = 25,
-    Desc = "Whether you want to accessorize your waist or own a beautiful weight tracker, our ileke waistbeads are your to go to make you feeling beautiful all day long "
+    Desc = "Whether you want to accessorize your waist or own a beautiful weight tracker, our ileke waistbeads are just what you need to make you feeling beautiful all day long "
 
 # these lines add each of our objects to the session
 db.session.add(product_1)
@@ -108,7 +108,7 @@ api_data = [
         "Image": "../static/3.png",
         "Name": "Waistbeads",
         "Cost": 25,
-        "Desc": "Whether you want to accessorize your waist or own a beautiful weight tracker, our ileke waistbeads are your to go to make you feeling beautiful all day long "
+        "Desc": "Whether you want to accessorize your waist or own a beautiful weight tracker, our ileke waistbeads are just what you need to make you feeling beautiful all day long "
 
     }
 ]
