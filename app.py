@@ -13,6 +13,10 @@ def hello():
 def about():
     return " <h3> About Page </h3>"  
 
+@app.route("/contact")
+def contact():
+    return " <h3> Contact Us </h3>"  
+
 
 ##This is where we run our app
 
